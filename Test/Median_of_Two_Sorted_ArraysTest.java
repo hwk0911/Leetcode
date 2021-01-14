@@ -8,12 +8,12 @@ class Median_of_Two_Sorted_ArraysTest {
 
     @Test
     void findMedianSortedArrays() {
-        int[] nums1_1 = {1,3};
+        int[] nums1_1 = {1, 3};
         int[] nums2_1 = {2};
         double answer_1 = 2f;
 
-        int[] nums1_2 = {1,2};
-        int[] nums2_2 = {3,4};
+        int[] nums1_2 = {1, 2};
+        int[] nums2_2 = {3, 4};
         double answer_2 = 2.5f;
 
         int[] nums1_3 = {2};
