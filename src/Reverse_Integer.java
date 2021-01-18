@@ -12,7 +12,7 @@ public class Reverse_Integer {
             x /= 10;
         } while (x != 0);
 
-        int answer;
+        int answer = 0;
 
         try {
             answer = Integer.parseInt(sb.toString());

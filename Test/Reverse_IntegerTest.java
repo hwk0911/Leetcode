@@ -20,13 +20,9 @@ class Reverse_IntegerTest {
         int x_4 = 0;
         int answer_4 = 0;
 
-        int x_5 = 12;
-        int answer_5 = 21;
-
         assertEquals(main.reverse(x_1), answer_1);
         assertEquals(main.reverse(x_2), answer_2);
         assertEquals(main.reverse(x_3), answer_3);
         assertEquals(main.reverse(x_4), answer_4);
-        assertEquals(main.reverse(x_5), answer_5);
     }
 }
