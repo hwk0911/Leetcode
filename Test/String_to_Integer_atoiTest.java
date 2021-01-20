@@ -23,10 +23,14 @@ class String_to_Integer_atoiTest {
         String str_5 = "-91283472332";
         int answer_5 = -2147483648;
 
+        String str_6 = "+-12";
+        int answer_6 = 0;
+
         assertEquals(main.myAtoi(str_1), answer_1);
         assertEquals(main.myAtoi(str_2), answer_2);
         assertEquals(main.myAtoi(str_3), answer_3);
         assertEquals(main.myAtoi(str_4), answer_4);
         assertEquals(main.myAtoi(str_5), answer_5);
+        assertEquals(main.myAtoi(str_6), answer_6);
     }
 }
